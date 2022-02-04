@@ -5,6 +5,7 @@ h1 {
 #profile {
     height: 400px;
     background-color: darkslategray;
+
 }
 
 body {
@@ -19,8 +20,15 @@ a {
 
 div {
     background: burlywood;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: solid;
+    border-radius: 10px;
 }
 
 .social-icon {
-    height:10%
+    height:5%;
+    padding: 1%;
 }
