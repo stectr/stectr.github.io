@@ -1,0 +1,13 @@
+{
+    "colorTabs.config": [
+        {
+            "regex": "/.*"
+        },
+        {
+            "regex": ".*/web/.*"
+        },
+        {
+            "regex": ".*/mobile/.*"
+        }
+    ]
+}
