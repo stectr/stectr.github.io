@@ -31,7 +31,9 @@ footer a:hover {
 }
 
 .img-full {
-    height: 100vh; /* Set a fixed height */
-    object-fit: cover; /* Cover the container while maintaining aspect ratio */
-    width: 100vw; /* Ensure the image takes the full width of the column */
+    max-width: 100%; /* Ensure the image does not exceed the width of the modal */
+    max-height: 80vh; /* Set a maximum height to prevent overflow */
+    object-fit: contain; /* Maintain aspect ratio without cropping */
+    display: block; /* Center the image */
+    margin: 0 auto; /* Center the image horizontally */
 }
