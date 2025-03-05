@@ -1,0 +1,25 @@
+body {
+    background-color: #ffffff; /* Clean white background */
+    font-family: Arial, sans-serif; /* Simple font */
+}
+
+header {
+    margin-bottom: 30px; /* Space below header */
+}
+
+footer {
+    border-top: 1px solid #ddd; /* Subtle border on top of footer */
+}
+
+footer a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Dark text for links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.text-center {
+    margin-top: 10px; /* Space above captions */
+}
