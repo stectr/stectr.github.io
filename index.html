@@ -18,60 +18,87 @@
     <div class="row">
         <!-- Array of images and captions -->
         <div class="col-lg-4 col-md-6 col-12 mb-4">
-            <img src="images/photo1.jpg" class="img-fluid rounded shadow-sm" alt="Ricoh GRiii">
+            <img src="images/photo1.jpg" class="img-fluid rounded shadow-sm" alt="Ricoh GRiii" data-toggle="modal" data-target="#imageModal" data-large="images/photo1.jpg">
             <p class="text-center mt-2">Ricoh GRiii</p>
         </div>
         <div class="col-lg-4 col-md-6 col-12 mb-4">
-            <img src="images/photo2.jpg" class="img-fluid rounded shadow-sm" alt="Olympus Stylus Epic">
+            <img src="images/photo2.jpg" class="img-fluid rounded shadow-sm" alt="Olympus Stylus Epic" data-toggle="modal" data-target="#imageModal" data-large="images/photo2.jpg">
             <p class="text-center mt-2">Olympus Stylus Epic</p>
         </div>
         <div class="col-lg-4 col-md-6 col-12 mb-4">
-            <img src="images/photo3.jpg" class="img-fluid rounded shadow-sm" alt="Ricoh GRiii">
+            <img src="images/photo3.jpg" class="img-fluid rounded shadow-sm" alt="Ricoh GRiii" data-toggle="modal" data-target="#imageModal" data-large="images/photo3.jpg">
             <p class="text-center mt-2">Ricoh GRiii</p>
         </div>
         <div class="col-lg-4 col-md-6 col-12 mb-4">
-            <img src="images/photo4.jpg" class="img-fluid rounded shadow-sm" alt="Olympus Stylus Epic">
+            <img src="images/photo4.jpg" class="img-fluid rounded shadow-sm" alt="Olympus Stylus Epic" data-toggle="modal" data-target="#imageModal" data-large="images/photo4.jpg">
             <p class="text-center mt-2">Olympus Stylus Epic</p>
         </div>
         <div class="col-lg-4 col-md-6 col-12 mb-4">
-            <img src="images/photo5.jpg" class="img-fluid rounded shadow-sm" alt="Ricoh GRiii">
+            <img src="images/photo5.jpg" class="img-fluid rounded shadow-sm" alt="Ricoh GRiii" data-toggle="modal" data-target="#imageModal" data-large="images/photo5.jpg">
             <p class="text-center mt-2">Ricoh GRiii</p>
         </div>
         <div class="col-lg-4 col-md-6 col-12 mb-4">
-            <img src="images/photo6.jpg" class="img-fluid rounded shadow-sm" alt="Ricoh GRiii">
+            <img src="images/photo6.jpg" class="img-fluid rounded shadow-sm" alt="Ricoh GRiii" data-toggle="modal" data-target="#imageModal" data-large="images/photo6.jpg">
             <p class="text-center mt-2">Ricoh GRiii</p>
         </div>
         <div class="col-lg-4 col-md-6 col-12 mb-4">
-            <img src="images/photo7.jpg" class="img-fluid rounded shadow-sm" alt="Fujifilm X100S">
+            <img src="images/photo7.jpg" class="img-fluid rounded shadow-sm" alt="Fujifilm X100S" data-toggle="modal" data-target="#imageModal" data-large="images/photo7.jpg">
             <p class="text-center mt-2">Fujifilm X100S</p>
         </div>
         <div class="col-lg-4 col-md-6 col-12 mb-4">
-            <img src="images/photo8.jpg" class="img-fluid rounded shadow-sm" alt="Olympus Stylus Epic">
+            <img src="images/photo8.jpg" class="img-fluid rounded shadow-sm" alt="Olympus Stylus Epic" data-toggle="modal" data-target="#imageModal" data-large="images/photo8.jpg">
             <p class="text-center mt-2">Olympus Stylus Epic</p>
         </div>
         <div class="col-lg-4 col-md-6 col-12 mb-4">
-            <img src="images/photo9.jpg" class="img-fluid rounded shadow-sm" alt="Sony RX100">
+            <img src="images/photo9.jpg" class="img-fluid rounded shadow-sm" alt="Sony RX100" data-toggle="modal" data-target="#imageModal" data-large="images/photo9.jpg">
             <p class="text-center mt-2">Sony RX100</p>
         </div>
         <div class="col-lg-4 col-md-6 col-12 mb-4">
-            <img src="images/photo10.jpg" class="img-fluid rounded shadow-sm" alt="Olympus Stylus Epic">
+            <img src="images/photo10.jpg" class="img-fluid rounded shadow-sm" alt="Olympus Stylus Epic" data-toggle="modal" data-target="#imageModal" data-large="images/photo10.jpg">
             <p class="text-center mt-2">Olympus Stylus Epic</p>
         </div>
         <div class="col-lg-4 col-md-6 col-12 mb-4">
-            <img src="images/photo11.jpg" class="img-fluid rounded shadow-sm" alt="Olympus Stylus Epic">
+            <img src="images/photo11.jpg" class="img-fluid rounded shadow-sm" alt="Olympus Stylus Epic" data-toggle="modal" data-target="#imageModal" data-large="images/photo11.jpg">
             <p class="text-center mt-2">Olympus Stylus Epic</p>
         </div>
         <div class="col-lg-4 col-md-6 col-12 mb-4">
-            <img src="images/photo12.jpg" class="img-fluid rounded shadow-sm" alt="Olympus Stylus Epic">
+            <img src="images/photo12.jpg" class="img-fluid rounded shadow-sm" alt="Olympus Stylus Epic" data-toggle="modal" data-target="#imageModal" data-large="images/photo12.jpg">
             <p class="text-center mt-2">Olympus Stylus Epic</p>
         </div>
     </div>
 </main>
+
+<!-- Modal for displaying full image -->
+<div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="imageModalLabel">Full Image</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img src="" id="modalImage" class="img-full" alt="Full Image">
+            </div>
+        </div>
+    </div>
+</div>
+
 <footer class="text-center py-4">
-    <p>&copy; 2023 ste's website. All rights reserved.</p>
+    <p>&copy; 2025 ste's website. All rights reserved. (⌐■_■)</p>
 </footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    // jQuery to handle the modal image source
+    $('#imageModal').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget); // Button that triggered the modal
+        var largeImage = button.data('large'); // Extract info from data-* attributes
+        var modal = $(this);
+        modal.find('#modalImage').attr('src', largeImage); // Update the modal's image source
+    });
+</script>
 </body>
 </html>

@@ -23,3 +23,15 @@ footer a:hover {
 .text-center {
     margin-top: 10px; /* Space above captions */
 }
+
+.img-fluid {
+    height: 300px; /* Set a fixed height */
+    object-fit: cover; /* Cover the container while maintaining aspect ratio */
+    width: 100%; /* Ensure the image takes the full width of the column */
+}
+
+.img-full {
+    height: 100%; /* Set a fixed height */
+    object-fit: cover; /* Cover the container while maintaining aspect ratio */
+    width: 100%; /* Ensure the image takes the full width of the column */
+}
