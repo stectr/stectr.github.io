@@ -77,3 +77,9 @@ footer a:hover {
     font-weight: 700;
     font-style: italic;
 }
+
+.modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
