@@ -1,39 +1,79 @@
 body {
-    background-color: #ffffff; /* Clean white background */
-    font-family: Arial, sans-serif; /* Simple font */
+    background-color: #ffffff;
+    /* Clean white background */
+    font-family: Arial, sans-serif;
+    /* Simple font */
 }
 
 header {
-    margin-bottom: 30px; /* Space below header */
+    margin-bottom: 30px;
+    /* Space below header */
 }
 
 footer {
-    border-top: 1px solid #ddd; /* Subtle border on top of footer */
+    border-top: 1px solid #ddd;
+    /* Subtle border on top of footer */
 }
 
 footer a {
-    text-decoration: none; /* Remove underline */
-    color: #333; /* Dark text for links */
+    text-decoration: none;
+    /* Remove underline */
+    color: #333;
+    /* Dark text for links */
 }
 
 footer a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline;
+    /* Underline on hover */
 }
 
 .text-center {
-    margin-top: 10px; /* Space above captions */
+    margin-top: 10px;
+    /* Space above captions */
 }
 
 .img-fluid {
-    height: 300px; /* Set a fixed height */
-    object-fit: cover; /* Cover the container while maintaining aspect ratio */
-    width: 100%; /* Ensure the image takes the full width of the column */
+    height: 300px;
+    /* Set a fixed height */
+    object-fit: cover;
+    /* Cover the container while maintaining aspect ratio */
+    width: 100%;
+    /* Ensure the image takes the full width of the column */
 }
 
 .img-full {
-    max-width: 100%; /* Ensure the image does not exceed the width of the modal */
-    max-height: 80vh; /* Set a maximum height to prevent overflow */
-    object-fit: contain; /* Maintain aspect ratio without cropping */
-    display: block; /* Center the image */
-    margin: 0 auto; /* Center the image horizontally */
+    max-width: 100%;
+    /* Ensure the image does not exceed the width of the modal */
+    max-height: 80vh;
+    /* Set a maximum height to prevent overflow */
+    object-fit: contain;
+    /* Maintain aspect ratio without cropping */
+    display: block;
+    /* Center the image */
+    margin: 0 auto;
+    /* Center the image horizontally */
+}
+
+.atkinson-hyperlegible-regular {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.atkinson-hyperlegible-bold {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.atkinson-hyperlegible-regular-italic {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.atkinson-hyperlegible-bold-italic {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 700;
+    font-style: italic;
 }
