@@ -23,7 +23,8 @@
     <nav class="navbar navbar-light bg-light">
         <div class="container-fluid d-flex justify-content-between align-items-center">
             <div class="d-flex align-items-center">
-                <img src="favicons/500x500.png" alt="Icon" class="me-2" style="max-height: 3.5em"> <!-- Add margin to the right of the icon -->
+                <img src="favicons/500x500.png" alt="Icon" class="me-2" style="max-height: 3.5em">
+                <!-- Add margin to the right of the icon -->
                 <h1 class="display-4 text-dark mb-0">beef's</h1>
             </div>
             <p class="lead text-dark mb-0 text-end">temporary photography page</p>
@@ -33,7 +34,6 @@
         <!-- Array of images and captions -->
         <div id="gallery" class="row"></div>
         <script>
-            const imageCount = 23;
             const labels = [
                 "Nikon Zfc",
                 "Sony RX100",
@@ -57,16 +57,24 @@
                 "Olympus Stylus Epic",
                 "Olympus Stylus Epic",
                 "Olympus Stylus Epic",
-                "iPhone 13 Pro"
+                "iPhone 13 Pro",
+                "Fujifilm X100T",
+                "Fujifilm X100T",
+                "Sony A6000",
+                "Ricoh GRiii",
+                "Sony A6000",
+                "Nikon Zfc",
+                "Fujifilm X100T",
+                "Fujifilm X100T"
             ];
             const gallery = document.getElementById("gallery");
-            for (let i = imageCount; i > 0; i--) {
+            for (let i = labels.length; i > 0; i--) {
                 const html = `
                   <div class="col-lg-4 col-md-6 col-12 mb-4">
                     <img src="thumbnails/photo${i}.jpg" class="img-fluid rounded shadow-sm"
-                         alt="${labels[i-1]}" data-toggle="modal" data-target="#imageModal"
+                         alt="${labels[i - 1]}" data-toggle="modal" data-target="#imageModal"
                          data-large="uncompressed/photo${i}.jpg">
-                    <p class="text-center mt-1">${labels[i-1]}</p>
+                    <p class="text-center mt-1">${labels[i - 1]}</p>
                   </div>
                     `;
                 gallery.insertAdjacentHTML("beforeend", html);
